@@ -1,0 +1,13 @@
+.list-container{
+    width: 100%;
+    max-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+ul li {
+    display:inline-block;
+    list-style-type:none;
+    margin-right:15px;
+}

@@ -1,0 +1,19 @@
+@import '../mainTheme/Theme.scss';
+
+.arch-task-container .info-container{
+    width: 98%;
+}
+
+.bin-btn{
+    @include displayCenter;
+    
+    background: $primaryColor;
+    border: black solid 1px;
+    padding: 4px;
+    border-radius: 4px;
+    
+}
+
+.bin-btn:hover{
+    background: $primaryColorHover;
+}

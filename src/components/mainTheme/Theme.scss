@@ -1,0 +1,20 @@
+$primaryColor: #D7263D;
+$primaryColorHover: #fc3f58;
+$secondaryColor: #F46036;
+$secondaryColorHover: #f57856;
+$acceptColor: rgb(107, 197, 107);
+$acceptColorHover: rgb(93, 231, 93);
+$textColor: #2E294E;
+
+
+@mixin displayCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin btn {
+    font-family: Bebas neue;
+    width: 45%;
+    border-radius: 3px;
+}

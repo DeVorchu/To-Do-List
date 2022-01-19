@@ -1,0 +1,15 @@
+@import '../mainTheme/Theme.scss';
+
+.header-container{
+    @include displayCenter;
+    flex-direction: column;
+    width: 100%;
+    height: 20vh;
+    background: $primaryColor;  
+    font-size: 20px;
+    p:first-child{
+        font-size: 40px;
+        text-decoration: underline;
+        margin: 0; 
+    }
+}

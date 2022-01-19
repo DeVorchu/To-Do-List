@@ -1,0 +1,9 @@
+@import '../mainTheme/Theme.scss';
+
+.footer-container{
+    @include displayCenter;
+    width: 100%;
+    height: 60px;
+    background: #ddd;
+    -webkit-text-stroke: rgb(168, 168, 168) 1px;
+}
